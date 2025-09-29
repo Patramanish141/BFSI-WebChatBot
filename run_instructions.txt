@@ -1,0 +1,12 @@
+Quick run instructions (no venv):
+
+1) Install packages (one-time):
+   pip install -r requirements.txt
+
+2) Start backend in one terminal:
+   python -m uvicorn backend.main:app --reload
+
+3) Start frontend in another terminal:
+   streamlit run frontend/app.py
+
+4) Open Streamlit app in browser (it will open automatically) and click 'Check backend health'.
